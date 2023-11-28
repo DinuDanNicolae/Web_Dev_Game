@@ -1,0 +1,109 @@
+.custom-navbar {
+    background-color: rgb(139, 107, 156);
+    border-radius: 10px;
+    box-shadow:  
+                -13px 13px 41px #2a192d,
+                13px -13px 41px #a663b3;
+}
+
+
+body {
+    background-color: black;
+}
+
+#missile {
+        position:absolute;
+        bottom:10px;
+        left:300px; 
+        height:70px;
+}
+
+#pointsCard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 76px;
+        background: #683e70;
+        box-shadow:  
+                -13px 13px 26px #38405b,
+                13px -13px 26px #d8faff;
+        position:absolute;
+        bottom:10px;
+        right:30px;
+        width:200px;
+        height:120px;
+        color:aliceblue;
+        text-align: center; 
+        font-size:28pt; 
+}    
+
+#timeCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 76px;
+        background: #683e70;
+        box-shadow:  
+                -13px 13px 26px #38405b,
+                13px -13px 26px #d8faff;
+        position:absolute;
+        bottom:10px;
+        left:30px;
+        width:200px;
+        height:120px;
+        color:aliceblue;        
+        text-align: center; 
+        font-size:28pt; 
+}
+
+.time-text {
+        font-size: 15pt;     
+        color: aliceblue;   
+    }
+    
+.time-value {
+        font-size: 28pt;     
+        color: aliceblue;    
+}
+
+
+#scoreFinal {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 76px;
+        background: #683e70;
+        box-shadow:  
+                -13px 13px 26px #38405b,
+                13px -13px 26px #d8faff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 200px;
+        text-align: center;
+}
+
+.score-text {
+        font-size: 20pt;     
+        color: aliceblue;   
+    }
+    
+.score-value {
+        font-size: 28pt;     
+        color: aliceblue;    
+}
+
+
+.points-text {
+        font-size: 15pt;     
+        color: aliceblue;   
+}
+    
+.points-value {
+        font-size: 28pt;     
+        color: aliceblue;    
+}
